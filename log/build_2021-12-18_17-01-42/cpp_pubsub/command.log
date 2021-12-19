@@ -1,0 +1,6 @@
+Invoking command in '/home/gyufoxy/dev_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/gyufoxy/dev_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/gyufoxy/dev_ws/install/cpp_pubsub
+Invoked command in '/home/gyufoxy/dev_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/gyufoxy/dev_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/gyufoxy/dev_ws/install/cpp_pubsub
+Invoking command in '/home/gyufoxy/dev_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/gyufoxy/dev_ws/build/cpp_pubsub -- -j8 -l8
+Invoked command in '/home/gyufoxy/dev_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/gyufoxy/dev_ws/build/cpp_pubsub -- -j8 -l8
+Invoking command in '/home/gyufoxy/dev_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/gyufoxy/dev_ws/build/cpp_pubsub
+Invoked command in '/home/gyufoxy/dev_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/gyufoxy/dev_ws/build/cpp_pubsub

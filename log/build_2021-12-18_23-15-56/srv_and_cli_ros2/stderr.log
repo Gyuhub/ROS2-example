@@ -1,0 +1,5 @@
+CMake Error at CMakeLists.txt:26 (intsall):
+  Unknown CMake command "intsall".
+
+
+make: *** [Makefile:988: cmake_check_build_system] Error 1

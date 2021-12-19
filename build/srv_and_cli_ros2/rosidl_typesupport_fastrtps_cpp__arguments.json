@@ -1,0 +1,21 @@
+{
+  "package_name": "srv_and_cli_ros2",
+  "output_dir": "/home/gyufoxy/dev_ws/build/srv_and_cli_ros2/rosidl_typesupport_fastrtps_cpp/srv_and_cli_ros2",
+  "template_dir": "/opt/ros/foxy/share/rosidl_typesupport_fastrtps_cpp/resource",
+  "idl_tuples": [
+    "/home/gyufoxy/dev_ws/build/srv_and_cli_ros2/rosidl_adapter/srv_and_cli_ros2:msg/Tutorial.idl",
+    "/home/gyufoxy/dev_ws/build/srv_and_cli_ros2/rosidl_adapter/srv_and_cli_ros2:srv/Tutorial.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/foxy/lib/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp",
+    "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_typesupport_fastrtps_cpp/__init__.py",
+    "/opt/ros/foxy/share/rosidl_typesupport_fastrtps_cpp/resource/idl__rosidl_typesupport_fastrtps_cpp.hpp.em",
+    "/opt/ros/foxy/share/rosidl_typesupport_fastrtps_cpp/resource/idl__type_support.cpp.em",
+    "/opt/ros/foxy/share/rosidl_typesupport_fastrtps_cpp/resource/msg__rosidl_typesupport_fastrtps_cpp.hpp.em",
+    "/opt/ros/foxy/share/rosidl_typesupport_fastrtps_cpp/resource/msg__type_support.cpp.em",
+    "/opt/ros/foxy/share/rosidl_typesupport_fastrtps_cpp/resource/srv__rosidl_typesupport_fastrtps_cpp.hpp.em",
+    "/opt/ros/foxy/share/rosidl_typesupport_fastrtps_cpp/resource/srv__type_support.cpp.em",
+    "/home/gyufoxy/dev_ws/build/srv_and_cli_ros2/rosidl_adapter/srv_and_cli_ros2/msg/Tutorial.idl",
+    "/home/gyufoxy/dev_ws/build/srv_and_cli_ros2/rosidl_adapter/srv_and_cli_ros2/srv/Tutorial.idl"
+  ]
+}

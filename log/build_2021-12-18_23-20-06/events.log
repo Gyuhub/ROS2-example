@@ -1,0 +1,187 @@
+[0.000000] (-) TimerEvent: {}
+[0.000188] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000251] (-) JobUnselected: {'identifier': 'pub_and_sub_ros2'}
+[0.000644] (srv_and_cli_ros2) JobQueued: {'identifier': 'srv_and_cli_ros2', 'dependencies': OrderedDict()}
+[0.000878] (srv_and_cli_ros2) JobStarted: {'identifier': 'srv_and_cli_ros2'}
+[0.012056] (srv_and_cli_ros2) JobProgress: {'identifier': 'srv_and_cli_ros2', 'progress': 'cmake'}
+[0.012924] (srv_and_cli_ros2) JobProgress: {'identifier': 'srv_and_cli_ros2', 'progress': 'build'}
+[0.013729] (srv_and_cli_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/gyufoxy/dev_ws/build/srv_and_cli_ros2', '--', '-j8', '-l8'], 'cwd': '/home/gyufoxy/dev_ws/build/srv_and_cli_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'gyufoxy'), ('LC_TIME', 'ko_KR.UTF-8'), ('SSH_AGENT_PID', '1360'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/gyufoxy/dev_ws/install/srv_and_cli_ros2/lib:/home/gyufoxy/dev_ws/install/turtlesim/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/gyufoxy'), ('OLDPWD', '/home/gyufoxy/dev_ws/src/srv_and_cli_ros2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1100'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '26505'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/gyufoxy/dev_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'gyufoxy'), ('JOURNAL_STREAM', '8:37447'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gyufoxy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/gyufoxy/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/gyubuntu:@/tmp/.ICE-unix/1406,unix/gyubuntu:/tmp/.ICE-unix/1406'), ('INVOCATION_ID', '34ca7c5b9fec4fb28e898bab4dfce79b'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/gyufoxy/dev_ws/install/srv_and_cli_ros2:/home/gyufoxy/dev_ws/install/turtlesim:/home/gyufoxy/dev_ws/install/pub_and_sub_ros2:/home/gyufoxy/dev_ws/install/my_pkg:/home/gyufoxy/dev_ws/install/cpp_pubsub:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:f4e77fb5-221d-4d9e-8a5a-cc846c66600b'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gyufoxy/dev_ws/build/srv_and_cli_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/gyufoxy/dev_ws/install/srv_and_cli_ros2/lib/python3.8/site-packages:/home/gyufoxy/dev_ws/install/turtlesim/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/gyufoxy/dev_ws/install/srv_and_cli_ros2:/home/gyufoxy/dev_ws/install/turtlesim:/home/gyufoxy/dev_ws/install/pub_and_sub_ros2:/home/gyufoxy/dev_ws/install/my_pkg:/home/gyufoxy/dev_ws/install/cpp_pubsub:/opt/ros/foxy')]), 'shell': False}
+[0.058543] (srv_and_cli_ros2) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target server\x1b[0m\n'}
+[0.068301] (srv_and_cli_ros2) StdoutLine: {'line': b'[  2%] Built target srv_and_cli_ros2__cpp\n'}
+[0.068579] (srv_and_cli_ros2) StdoutLine: {'line': b'[ 12%] Built target srv_and_cli_ros2__rosidl_generator_c\n'}
+[0.091881] (srv_and_cli_ros2) StdoutLine: {'line': b'[ 21%] Built target srv_and_cli_ros2__rosidl_typesupport_introspection_c\n'}
+[0.094369] (srv_and_cli_ros2) StdoutLine: {'line': b'[ 31%] Built target srv_and_cli_ros2__rosidl_typesupport_cpp\n'}
+[0.097464] (srv_and_cli_ros2) StdoutLine: {'line': b'[ 51%] Built target srv_and_cli_ros2__rosidl_typesupport_introspection_cpp\n'}
+[0.097670] (srv_and_cli_ros2) StdoutLine: {'line': b'[ 51%] Built target srv_and_cli_ros2__rosidl_typesupport_c\n'}
+[0.099319] (-) TimerEvent: {}
+[0.100149] (srv_and_cli_ros2) StdoutLine: {'line': b'[ 60%] Built target srv_and_cli_ros2__rosidl_typesupport_fastrtps_cpp\n'}
+[0.104248] (srv_and_cli_ros2) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/server.dir/src/srv.cpp.o\x1b[0m\n'}
+[0.127623] (srv_and_cli_ros2) StdoutLine: {'line': b'[ 73%] Built target srv_and_cli_ros2__rosidl_typesupport_fastrtps_c\n'}
+[0.148390] (srv_and_cli_ros2) StdoutLine: {'line': b'[ 73%] Built target srv_and_cli_ros2\n'}
+[0.168362] (srv_and_cli_ros2) StdoutLine: {'line': b'[ 75%] Built target srv_and_cli_ros2__py\n'}
+[0.192913] (srv_and_cli_ros2) StdoutLine: {'line': b'[ 82%] Built target srv_and_cli_ros2__python\n'}
+[0.199428] (-) TimerEvent: {}
+[0.217913] (srv_and_cli_ros2) StdoutLine: {'line': b'[ 97%] Built target srv_and_cli_ros2__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.218149] (srv_and_cli_ros2) StdoutLine: {'line': b'[ 97%] Built target srv_and_cli_ros2__rosidl_typesupport_introspection_c__pyext\n'}
+[0.218272] (srv_and_cli_ros2) StdoutLine: {'line': b'[ 97%] Built target srv_and_cli_ros2__rosidl_typesupport_c__pyext\n'}
+[0.299546] (-) TimerEvent: {}
+[0.399881] (-) TimerEvent: {}
+[0.500224] (-) TimerEvent: {}
+[0.600563] (-) TimerEvent: {}
+[0.700910] (-) TimerEvent: {}
+[0.801271] (-) TimerEvent: {}
+[0.901619] (-) TimerEvent: {}
+[1.001959] (-) TimerEvent: {}
+[1.102266] (-) TimerEvent: {}
+[1.202591] (-) TimerEvent: {}
+[1.302926] (-) TimerEvent: {}
+[1.403246] (-) TimerEvent: {}
+[1.503569] (-) TimerEvent: {}
+[1.603877] (-) TimerEvent: {}
+[1.704175] (-) TimerEvent: {}
+[1.804482] (-) TimerEvent: {}
+[1.904807] (-) TimerEvent: {}
+[1.943800] (srv_and_cli_ros2) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable server\x1b[0m\n'}
+[2.004927] (-) TimerEvent: {}
+[2.064839] (srv_and_cli_ros2) StdoutLine: {'line': b'[100%] Built target server\n'}
+[2.076754] (srv_and_cli_ros2) CommandEnded: {'returncode': 0}
+[2.105028] (-) TimerEvent: {}
+[2.138382] (srv_and_cli_ros2) JobProgress: {'identifier': 'srv_and_cli_ros2', 'progress': 'install'}
+[2.149653] (srv_and_cli_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/gyufoxy/dev_ws/build/srv_and_cli_ros2'], 'cwd': '/home/gyufoxy/dev_ws/build/srv_and_cli_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'gyufoxy'), ('LC_TIME', 'ko_KR.UTF-8'), ('SSH_AGENT_PID', '1360'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/gyufoxy/dev_ws/install/srv_and_cli_ros2/lib:/home/gyufoxy/dev_ws/install/turtlesim/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/gyufoxy'), ('OLDPWD', '/home/gyufoxy/dev_ws/src/srv_and_cli_ros2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1100'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '26505'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/gyufoxy/dev_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'gyufoxy'), ('JOURNAL_STREAM', '8:37447'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gyufoxy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/gyufoxy/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/gyubuntu:@/tmp/.ICE-unix/1406,unix/gyubuntu:/tmp/.ICE-unix/1406'), ('INVOCATION_ID', '34ca7c5b9fec4fb28e898bab4dfce79b'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/gyufoxy/dev_ws/install/srv_and_cli_ros2:/home/gyufoxy/dev_ws/install/turtlesim:/home/gyufoxy/dev_ws/install/pub_and_sub_ros2:/home/gyufoxy/dev_ws/install/my_pkg:/home/gyufoxy/dev_ws/install/cpp_pubsub:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:f4e77fb5-221d-4d9e-8a5a-cc846c66600b'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gyufoxy/dev_ws/build/srv_and_cli_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/gyufoxy/dev_ws/install/srv_and_cli_ros2/lib/python3.8/site-packages:/home/gyufoxy/dev_ws/install/turtlesim/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/gyufoxy/dev_ws/install/srv_and_cli_ros2:/home/gyufoxy/dev_ws/install/turtlesim:/home/gyufoxy/dev_ws/install/pub_and_sub_ros2:/home/gyufoxy/dev_ws/install/my_pkg:/home/gyufoxy/dev_ws/install/cpp_pubsub:/opt/ros/foxy')]), 'shell': False}
+[2.158924] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.159293] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Installing: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/lib/srv_and_cli_ros2/server\n'}
+[2.160012] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Set runtime path of "/home/gyufoxy/dev_ws/install/srv_and_cli_ros2/lib/srv_and_cli_ros2/server" to ""\n'}
+[2.160150] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/share/ament_index/resource_index/rosidl_interfaces/srv_and_cli_ros2\n'}
+[2.160341] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/include/srv_and_cli_ros2\n'}
+[2.160510] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/include/srv_and_cli_ros2/srv\n'}
+[2.160658] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/include/srv_and_cli_ros2/srv/detail\n'}
+[2.160776] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/include/srv_and_cli_ros2/srv/detail/tutorial__functions.h\n'}
+[2.160862] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/include/srv_and_cli_ros2/srv/detail/tutorial__type_support.h\n'}
+[2.160946] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/include/srv_and_cli_ros2/srv/detail/tutorial__functions.c\n'}
+[2.161051] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/include/srv_and_cli_ros2/srv/detail/tutorial__struct.h\n'}
+[2.161134] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/include/srv_and_cli_ros2/srv/tutorial.h\n'}
+[2.161262] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/include/srv_and_cli_ros2/msg\n'}
+[2.161448] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/include/srv_and_cli_ros2/msg/detail\n'}
+[2.161565] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/include/srv_and_cli_ros2/msg/detail/tutorial__functions.h\n'}
+[2.161666] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/include/srv_and_cli_ros2/msg/detail/tutorial__type_support.h\n'}
+[2.161785] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/include/srv_and_cli_ros2/msg/detail/tutorial__functions.c\n'}
+[2.161923] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/include/srv_and_cli_ros2/msg/detail/tutorial__struct.h\n'}
+[2.162110] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/include/srv_and_cli_ros2/msg/tutorial.h\n'}
+[2.162289] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/include/srv_and_cli_ros2/msg/rosidl_generator_c__visibility_control.h\n'}
+[2.162397] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/share/srv_and_cli_ros2/environment/library_path.sh\n'}
+[2.162500] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/share/srv_and_cli_ros2/environment/library_path.dsv\n'}
+[2.162619] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/lib/libsrv_and_cli_ros2__rosidl_generator_c.so\n'}
+[2.162718] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/include/srv_and_cli_ros2\n'}
+[2.162877] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/include/srv_and_cli_ros2/srv\n'}
+[2.163078] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/include/srv_and_cli_ros2/srv/detail\n'}
+[2.163180] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/include/srv_and_cli_ros2/srv/detail/tutorial__rosidl_typesupport_fastrtps_c.h\n'}
+[2.163285] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/include/srv_and_cli_ros2/msg\n'}
+[2.163402] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/include/srv_and_cli_ros2/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[2.163513] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/include/srv_and_cli_ros2/msg/detail\n'}
+[2.163612] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/include/srv_and_cli_ros2/msg/detail/tutorial__rosidl_typesupport_fastrtps_c.h\n'}
+[2.163728] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/lib/libsrv_and_cli_ros2__rosidl_typesupport_fastrtps_c.so\n'}
+[2.163828] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/include/srv_and_cli_ros2\n'}
+[2.163960] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/include/srv_and_cli_ros2/srv\n'}
+[2.164155] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/include/srv_and_cli_ros2/srv/detail\n'}
+[2.164317] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/include/srv_and_cli_ros2/srv/detail/tutorial__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.164527] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/include/srv_and_cli_ros2/srv/detail/dds_fastrtps\n'}
+[2.164662] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/include/srv_and_cli_ros2/msg\n'}
+[2.164763] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/include/srv_and_cli_ros2/msg/detail\n'}
+[2.164879] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/include/srv_and_cli_ros2/msg/detail/tutorial__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.164978] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/include/srv_and_cli_ros2/msg/detail/dds_fastrtps\n'}
+[2.165082] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/include/srv_and_cli_ros2/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[2.165180] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/lib/libsrv_and_cli_ros2__rosidl_typesupport_fastrtps_cpp.so\n'}
+[2.165302] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/include/srv_and_cli_ros2\n'}
+[2.165403] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/include/srv_and_cli_ros2/srv\n'}
+[2.165525] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/include/srv_and_cli_ros2/srv/detail\n'}
+[2.165656] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/include/srv_and_cli_ros2/srv/detail/tutorial__type_support.c\n'}
+[2.165756] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/include/srv_and_cli_ros2/srv/detail/tutorial__rosidl_typesupport_introspection_c.h\n'}
+[2.165856] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/include/srv_and_cli_ros2/msg\n'}
+[2.165962] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/include/srv_and_cli_ros2/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[2.166032] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/include/srv_and_cli_ros2/msg/detail\n'}
+[2.166100] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/include/srv_and_cli_ros2/msg/detail/tutorial__type_support.c\n'}
+[2.166167] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/include/srv_and_cli_ros2/msg/detail/tutorial__rosidl_typesupport_introspection_c.h\n'}
+[2.166235] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/lib/libsrv_and_cli_ros2__rosidl_typesupport_introspection_c.so\n'}
+[2.166308] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/lib/libsrv_and_cli_ros2__rosidl_typesupport_c.so\n'}
+[2.166376] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/include/srv_and_cli_ros2\n'}
+[2.166442] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/include/srv_and_cli_ros2/srv\n'}
+[2.166508] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/include/srv_and_cli_ros2/srv/tutorial.hpp\n'}
+[2.166573] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/include/srv_and_cli_ros2/srv/detail\n'}
+[2.166640] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/include/srv_and_cli_ros2/srv/detail/tutorial__struct.hpp\n'}
+[2.166707] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/include/srv_and_cli_ros2/srv/detail/tutorial__traits.hpp\n'}
+[2.166775] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/include/srv_and_cli_ros2/srv/detail/tutorial__builder.hpp\n'}
+[2.166842] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/include/srv_and_cli_ros2/msg\n'}
+[2.166909] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/include/srv_and_cli_ros2/msg/tutorial.hpp\n'}
+[2.166974] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/include/srv_and_cli_ros2/msg/detail\n'}
+[2.167040] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/include/srv_and_cli_ros2/msg/detail/tutorial__struct.hpp\n'}
+[2.167123] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/include/srv_and_cli_ros2/msg/detail/tutorial__traits.hpp\n'}
+[2.167191] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/include/srv_and_cli_ros2/msg/detail/tutorial__builder.hpp\n'}
+[2.167257] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/include/srv_and_cli_ros2\n'}
+[2.167324] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/include/srv_and_cli_ros2/srv\n'}
+[2.167389] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/include/srv_and_cli_ros2/srv/detail\n'}
+[2.167454] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/include/srv_and_cli_ros2/srv/detail/tutorial__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.167520] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/include/srv_and_cli_ros2/srv/detail/tutorial__type_support.cpp\n'}
+[2.167585] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/include/srv_and_cli_ros2/msg\n'}
+[2.167651] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/include/srv_and_cli_ros2/msg/detail\n'}
+[2.167716] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/include/srv_and_cli_ros2/msg/detail/tutorial__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.167782] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/include/srv_and_cli_ros2/msg/detail/tutorial__type_support.cpp\n'}
+[2.167848] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/lib/libsrv_and_cli_ros2__rosidl_typesupport_introspection_cpp.so\n'}
+[2.167914] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/lib/libsrv_and_cli_ros2__rosidl_typesupport_cpp.so\n'}
+[2.167980] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/share/srv_and_cli_ros2/environment/pythonpath.sh\n'}
+[2.168048] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/share/srv_and_cli_ros2/environment/pythonpath.dsv\n'}
+[2.168115] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/lib/python3.8/site-packages/srv_and_cli_ros2/__init__.py\n'}
+[2.196769] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/lib/python3.8/site-packages/srv_and_cli_ros2/msg\n'}
+[2.197247] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/lib/python3.8/site-packages/srv_and_cli_ros2/msg/_tutorial.py\n'}
+[2.197403] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/lib/python3.8/site-packages/srv_and_cli_ros2/msg/__init__.py\n'}
+[2.197497] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/lib/python3.8/site-packages/srv_and_cli_ros2/msg/_tutorial_s.c\n'}
+[2.197567] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/lib/python3.8/site-packages/srv_and_cli_ros2/srv\n'}
+[2.197660] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/lib/python3.8/site-packages/srv_and_cli_ros2/srv/_tutorial.py\n'}
+[2.197735] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/lib/python3.8/site-packages/srv_and_cli_ros2/srv/__init__.py\n'}
+[2.197808] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/lib/python3.8/site-packages/srv_and_cli_ros2/srv/_tutorial_s.c\n'}
+[2.197884] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/lib/python3.8/site-packages/srv_and_cli_ros2/srv_and_cli_ros2_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[2.198310] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/lib/python3.8/site-packages/srv_and_cli_ros2/srv_and_cli_ros2_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[2.198969] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/lib/python3.8/site-packages/srv_and_cli_ros2/srv_and_cli_ros2_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[2.199689] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/lib/libsrv_and_cli_ros2__python.so\n'}
+[2.200111] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/share/srv_and_cli_ros2/msg/Tutorial.idl\n'}
+[2.200592] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/share/srv_and_cli_ros2/srv/Tutorial.idl\n'}
+[2.200865] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/share/srv_and_cli_ros2/msg/Tutorial.msg\n'}
+[2.200991] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/share/srv_and_cli_ros2/srv/Tutorial.srv\n'}
+[2.201104] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/share/srv_and_cli_ros2/srv/Tutorial_Request.msg\n'}
+[2.201213] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/share/srv_and_cli_ros2/srv/Tutorial_Response.msg\n'}
+[2.201306] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/share/ament_index/resource_index/package_run_dependencies/srv_and_cli_ros2\n'}
+[2.201421] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/share/ament_index/resource_index/parent_prefix_path/srv_and_cli_ros2\n'}
+[2.201511] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/share/srv_and_cli_ros2/environment/ament_prefix_path.sh\n'}
+[2.201578] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/share/srv_and_cli_ros2/environment/ament_prefix_path.dsv\n'}
+[2.201668] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/share/srv_and_cli_ros2/environment/path.sh\n'}
+[2.201736] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/share/srv_and_cli_ros2/environment/path.dsv\n'}
+[2.201828] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/share/srv_and_cli_ros2/local_setup.bash\n'}
+[2.201935] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/share/srv_and_cli_ros2/local_setup.sh\n'}
+[2.202004] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/share/srv_and_cli_ros2/local_setup.zsh\n'}
+[2.202095] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/share/srv_and_cli_ros2/local_setup.dsv\n'}
+[2.202183] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Installing: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/share/srv_and_cli_ros2/package.dsv\n'}
+[2.202251] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/share/ament_index/resource_index/packages/srv_and_cli_ros2\n'}
+[2.202342] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/share/srv_and_cli_ros2/cmake/srv_and_cli_ros2__rosidl_generator_cExport.cmake\n'}
+[2.202431] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/share/srv_and_cli_ros2/cmake/srv_and_cli_ros2__rosidl_generator_cExport-noconfig.cmake\n'}
+[2.202498] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/share/srv_and_cli_ros2/cmake/srv_and_cli_ros2__rosidl_typesupport_introspection_cExport.cmake\n'}
+[2.202589] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/share/srv_and_cli_ros2/cmake/srv_and_cli_ros2__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[2.202656] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/share/srv_and_cli_ros2/cmake/srv_and_cli_ros2__rosidl_typesupport_cExport.cmake\n'}
+[2.202724] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/share/srv_and_cli_ros2/cmake/srv_and_cli_ros2__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[2.202853] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/share/srv_and_cli_ros2/cmake/srv_and_cli_ros2__rosidl_generator_cppExport.cmake\n'}
+[2.202932] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/share/srv_and_cli_ros2/cmake/srv_and_cli_ros2__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[2.203022] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/share/srv_and_cli_ros2/cmake/srv_and_cli_ros2__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[2.203129] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/share/srv_and_cli_ros2/cmake/srv_and_cli_ros2__rosidl_typesupport_cppExport.cmake\n'}
+[2.203233] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/share/srv_and_cli_ros2/cmake/srv_and_cli_ros2__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[2.203320] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/share/srv_and_cli_ros2/cmake/rosidl_cmake-extras.cmake\n'}
+[2.203429] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/share/srv_and_cli_ros2/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.203517] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/share/srv_and_cli_ros2/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.203643] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/share/srv_and_cli_ros2/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[2.203728] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/share/srv_and_cli_ros2/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.203812] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/share/srv_and_cli_ros2/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[2.203897] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/share/srv_and_cli_ros2/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[2.203978] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/share/srv_and_cli_ros2/cmake/srv_and_cli_ros2Config.cmake\n'}
+[2.204059] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/share/srv_and_cli_ros2/cmake/srv_and_cli_ros2Config-version.cmake\n'}
+[2.204149] (srv_and_cli_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/share/srv_and_cli_ros2/package.xml\n'}
+[2.205116] (-) TimerEvent: {}
+[2.205689] (srv_and_cli_ros2) CommandEnded: {'returncode': 0}
+[2.289377] (srv_and_cli_ros2) JobEnded: {'identifier': 'srv_and_cli_ros2', 'rc': 0}
+[2.290201] (-) EventReactorShutdown: {}

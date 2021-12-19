@@ -1,0 +1,17 @@
+/home/gyufoxy/dev_ws/install/pub_and_sub_ros2/lib/pub_and_sub_ros2/pub_node
+/home/gyufoxy/dev_ws/install/pub_and_sub_ros2/lib/pub_and_sub_ros2/sub_node
+/home/gyufoxy/dev_ws/install/pub_and_sub_ros2/share/ament_index/resource_index/package_run_dependencies/pub_and_sub_ros2
+/home/gyufoxy/dev_ws/install/pub_and_sub_ros2/share/ament_index/resource_index/parent_prefix_path/pub_and_sub_ros2
+/home/gyufoxy/dev_ws/install/pub_and_sub_ros2/share/pub_and_sub_ros2/environment/ament_prefix_path.sh
+/home/gyufoxy/dev_ws/install/pub_and_sub_ros2/share/pub_and_sub_ros2/environment/ament_prefix_path.dsv
+/home/gyufoxy/dev_ws/install/pub_and_sub_ros2/share/pub_and_sub_ros2/environment/path.sh
+/home/gyufoxy/dev_ws/install/pub_and_sub_ros2/share/pub_and_sub_ros2/environment/path.dsv
+/home/gyufoxy/dev_ws/install/pub_and_sub_ros2/share/pub_and_sub_ros2/local_setup.bash
+/home/gyufoxy/dev_ws/install/pub_and_sub_ros2/share/pub_and_sub_ros2/local_setup.sh
+/home/gyufoxy/dev_ws/install/pub_and_sub_ros2/share/pub_and_sub_ros2/local_setup.zsh
+/home/gyufoxy/dev_ws/install/pub_and_sub_ros2/share/pub_and_sub_ros2/local_setup.dsv
+/home/gyufoxy/dev_ws/install/pub_and_sub_ros2/share/pub_and_sub_ros2/package.dsv
+/home/gyufoxy/dev_ws/install/pub_and_sub_ros2/share/ament_index/resource_index/packages/pub_and_sub_ros2
+/home/gyufoxy/dev_ws/install/pub_and_sub_ros2/share/pub_and_sub_ros2/cmake/pub_and_sub_ros2Config.cmake
+/home/gyufoxy/dev_ws/install/pub_and_sub_ros2/share/pub_and_sub_ros2/cmake/pub_and_sub_ros2Config-version.cmake
+/home/gyufoxy/dev_ws/install/pub_and_sub_ros2/share/pub_and_sub_ros2/package.xml

@@ -1,0 +1,8 @@
+[01m[K/home/gyufoxy/dev_ws/src/srv_and_cli_ros2/src/srv.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Ksrv_and_cli_ros2/srv/tutorial.hpp: No such file or directory
+    2 | #include [01;31m[K"srv_and_cli_ros2/srv/tutorial.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/server.dir/build.make:63: CMakeFiles/server.dir/src/srv.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:304: CMakeFiles/server.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [Makefile:141: all] Error 2

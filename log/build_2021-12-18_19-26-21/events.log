@@ -1,0 +1,4 @@
+[0.000000] (-) TimerEvent: {}
+[0.000272] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000700] (-) JobUnselected: {'identifier': 'pub_and_sub_ros2'}
+[0.001036] (-) EventReactorShutdown: {}

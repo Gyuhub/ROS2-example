@@ -1,0 +1,12 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from srv_and_cli_ros2/msg/Tutorial.msg
+// generated code does not contain a copyright notice
+
+
+module srv_and_cli_ros2 {
+  module msg {
+    struct Tutorial {
+      int64 num;
+    };
+  };
+};
