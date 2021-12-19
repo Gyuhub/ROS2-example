@@ -1,0 +1,2 @@
+Invoking command in '/home/gyufoxy/dev_ws/build/action_interfaces_ros2': /usr/bin/cmake /home/gyufoxy/dev_ws/src/action_interfaces_ros2 -DCMAKE_INSTALL_PREFIX=/home/gyufoxy/dev_ws/install/action_interfaces_ros2
+Invoked command in '/home/gyufoxy/dev_ws/build/action_interfaces_ros2' returned '1': /usr/bin/cmake /home/gyufoxy/dev_ws/src/action_interfaces_ros2 -DCMAKE_INSTALL_PREFIX=/home/gyufoxy/dev_ws/install/action_interfaces_ros2

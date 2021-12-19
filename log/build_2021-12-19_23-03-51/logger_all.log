@@ -1,0 +1,358 @@
+[0.259s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.259s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f394a342fd0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f394a342fd0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f394a4a8e50>)
+[0.264s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.264s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.264s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.264s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.264s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.264s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.264s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/gyufoxy/dev_ws'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_interface_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_interface_ros2) by extension 'ignore'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_interface_ros2) by extension 'ignore_ament_install'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_interface_ros2) by extensions ['colcon_pkg']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_interface_ros2) by extension 'colcon_pkg'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_interface_ros2) by extensions ['colcon_meta']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_interface_ros2) by extension 'colcon_meta'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_interface_ros2) by extensions ['ros']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_interface_ros2) by extension 'ros'
+[0.280s] DEBUG:colcon.colcon_core.package_identification:Package 'src/action_interface_ros2' with type 'ros.ament_cmake' and name 'action_interface_ros2'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extensions ['ignore', 'ignore_ament_install']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'ignore'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'ignore_ament_install'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extensions ['colcon_pkg']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'colcon_pkg'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extensions ['colcon_meta']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'colcon_meta'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extensions ['ros']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'ros'
+[0.281s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp_pubsub' with type 'ros.ament_cmake' and name 'cpp_pubsub'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/pub_and_sub_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/pub_and_sub_ros2) by extension 'ignore'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/pub_and_sub_ros2) by extension 'ignore_ament_install'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/pub_and_sub_ros2) by extensions ['colcon_pkg']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/pub_and_sub_ros2) by extension 'colcon_pkg'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/pub_and_sub_ros2) by extensions ['colcon_meta']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/pub_and_sub_ros2) by extension 'colcon_meta'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/pub_and_sub_ros2) by extensions ['ros']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/pub_and_sub_ros2) by extension 'ros'
+[0.283s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pub_and_sub_ros2' with type 'ros.ament_cmake' and name 'pub_and_sub_ros2'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/srv_and_cli_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/srv_and_cli_ros2) by extension 'ignore'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/srv_and_cli_ros2) by extension 'ignore_ament_install'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/srv_and_cli_ros2) by extensions ['colcon_pkg']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/srv_and_cli_ros2) by extension 'colcon_pkg'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/srv_and_cli_ros2) by extensions ['colcon_meta']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/srv_and_cli_ros2) by extension 'colcon_meta'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/srv_and_cli_ros2) by extensions ['ros']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/srv_and_cli_ros2) by extension 'ros'
+[0.284s] DEBUG:colcon.colcon_core.package_identification:Package 'src/srv_and_cli_ros2' with type 'ros.ament_cmake' and name 'srv_and_cli_ros2'
+[0.284s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.284s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.284s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.284s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.284s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'action_interface_ros2' build argument 'cmake_args' from command line to 'None'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'action_interface_ros2' build argument 'cmake_target' from command line to 'None'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'action_interface_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'action_interface_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'action_interface_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'action_interface_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'action_interface_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'action_interface_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'action_interface_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.301s] DEBUG:colcon.colcon_core.verb:Building package 'action_interface_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gyufoxy/dev_ws/build/action_interface_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gyufoxy/dev_ws/install/action_interface_ros2', 'merge_install': False, 'path': '/home/gyufoxy/dev_ws/src/action_interface_ros2', 'symlink_install': False, 'test_result_base': None}
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_args' from command line to 'None'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_target' from command line to 'None'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_clean_cache' from command line to 'False'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_clean_first' from command line to 'False'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_force_configure' from command line to 'False'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'ament_cmake_args' from command line to 'None'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'catkin_cmake_args' from command line to 'None'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.304s] DEBUG:colcon.colcon_core.verb:Building package 'cpp_pubsub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gyufoxy/dev_ws/build/cpp_pubsub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gyufoxy/dev_ws/install/cpp_pubsub', 'merge_install': False, 'path': '/home/gyufoxy/dev_ws/src/cpp_pubsub', 'symlink_install': False, 'test_result_base': None}
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'pub_and_sub_ros2' build argument 'cmake_args' from command line to 'None'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'pub_and_sub_ros2' build argument 'cmake_target' from command line to 'None'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'pub_and_sub_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'pub_and_sub_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'pub_and_sub_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'pub_and_sub_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'pub_and_sub_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'pub_and_sub_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'pub_and_sub_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.306s] DEBUG:colcon.colcon_core.verb:Building package 'pub_and_sub_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gyufoxy/dev_ws/build/pub_and_sub_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gyufoxy/dev_ws/install/pub_and_sub_ros2', 'merge_install': False, 'path': '/home/gyufoxy/dev_ws/src/pub_and_sub_ros2', 'symlink_install': False, 'test_result_base': None}
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'srv_and_cli_ros2' build argument 'cmake_args' from command line to 'None'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'srv_and_cli_ros2' build argument 'cmake_target' from command line to 'None'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'srv_and_cli_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'srv_and_cli_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'srv_and_cli_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'srv_and_cli_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'srv_and_cli_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'srv_and_cli_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'srv_and_cli_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.308s] DEBUG:colcon.colcon_core.verb:Building package 'srv_and_cli_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gyufoxy/dev_ws/build/srv_and_cli_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gyufoxy/dev_ws/install/srv_and_cli_ros2', 'merge_install': False, 'path': '/home/gyufoxy/dev_ws/src/srv_and_cli_ros2', 'symlink_install': False, 'test_result_base': None}
+[0.309s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.311s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.311s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/gyufoxy/dev_ws/src/action_interface_ros2' with build type 'ament_cmake'
+[0.311s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/gyufoxy/dev_ws/src/action_interface_ros2'
+[0.315s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.315s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.316s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.318s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.320s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/gyufoxy/dev_ws/src/cpp_pubsub' with build type 'ament_cmake'
+[0.321s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/gyufoxy/dev_ws/src/cpp_pubsub'
+[0.322s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.322s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.324s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.327s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/gyufoxy/dev_ws/src/pub_and_sub_ros2' with build type 'ament_cmake'
+[0.327s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/gyufoxy/dev_ws/src/pub_and_sub_ros2'
+[0.329s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.329s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.331s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.333s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/gyufoxy/dev_ws/src/srv_and_cli_ros2' with build type 'ament_cmake'
+[0.334s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/gyufoxy/dev_ws/src/srv_and_cli_ros2'
+[0.335s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.335s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.337s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.346s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gyufoxy/dev_ws/build/action_interface_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/gyufoxy/dev_ws/src/action_interface_ros2 -DCMAKE_INSTALL_PREFIX=/home/gyufoxy/dev_ws/install/action_interface_ros2
+[0.356s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gyufoxy/dev_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/gyufoxy/dev_ws/build/cpp_pubsub -- -j8 -l8
+[0.359s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gyufoxy/dev_ws/build/pub_and_sub_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/gyufoxy/dev_ws/build/pub_and_sub_ros2 -- -j8 -l8
+[0.367s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gyufoxy/dev_ws/build/srv_and_cli_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/gyufoxy/dev_ws/build/srv_and_cli_ros2 -- -j8 -l8
+[0.461s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gyufoxy/dev_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/gyufoxy/dev_ws/build/cpp_pubsub -- -j8 -l8
+[0.466s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gyufoxy/dev_ws/build/pub_and_sub_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/gyufoxy/dev_ws/build/pub_and_sub_ros2 -- -j8 -l8
+[0.502s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gyufoxy/dev_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/gyufoxy/dev_ws/build/cpp_pubsub
+[0.506s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gyufoxy/dev_ws/build/pub_and_sub_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/gyufoxy/dev_ws/build/pub_and_sub_ros2
+[0.514s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_pubsub)
+[0.515s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gyufoxy/dev_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/gyufoxy/dev_ws/build/cpp_pubsub
+[0.522s] Level 1:colcon.colcon_core.environment:checking '/home/gyufoxy/dev_ws/install/cpp_pubsub' for CMake module files
+[0.522s] Level 1:colcon.colcon_core.environment:checking '/home/gyufoxy/dev_ws/install/cpp_pubsub' for CMake config files
+[0.522s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_pubsub', 'cmake_prefix_path')
+[0.523s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gyufoxy/dev_ws/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.ps1'
+[0.524s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gyufoxy/dev_ws/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.dsv'
+[0.524s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gyufoxy/dev_ws/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.sh'
+[0.525s] Level 1:colcon.colcon_core.environment:checking '/home/gyufoxy/dev_ws/install/cpp_pubsub/lib'
+[0.525s] Level 1:colcon.colcon_core.environment:checking '/home/gyufoxy/dev_ws/install/cpp_pubsub/bin'
+[0.525s] Level 1:colcon.colcon_core.environment:checking '/home/gyufoxy/dev_ws/install/cpp_pubsub/lib/pkgconfig/cpp_pubsub.pc'
+[0.525s] Level 1:colcon.colcon_core.environment:checking '/home/gyufoxy/dev_ws/install/cpp_pubsub/lib/python3.8/site-packages'
+[0.526s] INFO:colcon.colcon_core.shell:Creating package script '/home/gyufoxy/dev_ws/install/cpp_pubsub/share/cpp_pubsub/package.ps1'
+[0.527s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gyufoxy/dev_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv'
+[0.528s] INFO:colcon.colcon_core.shell:Creating package script '/home/gyufoxy/dev_ws/install/cpp_pubsub/share/cpp_pubsub/package.sh'
+[0.528s] INFO:colcon.colcon_core.shell:Creating package script '/home/gyufoxy/dev_ws/install/cpp_pubsub/share/cpp_pubsub/package.bash'
+[0.529s] INFO:colcon.colcon_core.shell:Creating package script '/home/gyufoxy/dev_ws/install/cpp_pubsub/share/cpp_pubsub/package.zsh'
+[0.530s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gyufoxy/dev_ws/install/cpp_pubsub/share/colcon-core/packages/cpp_pubsub)
+[0.533s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pub_and_sub_ros2)
+[0.534s] Level 1:colcon.colcon_core.environment:checking '/home/gyufoxy/dev_ws/install/pub_and_sub_ros2' for CMake module files
+[0.535s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gyufoxy/dev_ws/build/pub_and_sub_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/gyufoxy/dev_ws/build/pub_and_sub_ros2
+[0.536s] Level 1:colcon.colcon_core.environment:checking '/home/gyufoxy/dev_ws/install/pub_and_sub_ros2' for CMake config files
+[0.536s] Level 1:colcon.colcon_core.shell:create_environment_hook('pub_and_sub_ros2', 'cmake_prefix_path')
+[0.537s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gyufoxy/dev_ws/install/pub_and_sub_ros2/share/pub_and_sub_ros2/hook/cmake_prefix_path.ps1'
+[0.537s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gyufoxy/dev_ws/install/pub_and_sub_ros2/share/pub_and_sub_ros2/hook/cmake_prefix_path.dsv'
+[0.538s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gyufoxy/dev_ws/install/pub_and_sub_ros2/share/pub_and_sub_ros2/hook/cmake_prefix_path.sh'
+[0.538s] Level 1:colcon.colcon_core.environment:checking '/home/gyufoxy/dev_ws/install/pub_and_sub_ros2/lib'
+[0.538s] Level 1:colcon.colcon_core.environment:checking '/home/gyufoxy/dev_ws/install/pub_and_sub_ros2/bin'
+[0.539s] Level 1:colcon.colcon_core.environment:checking '/home/gyufoxy/dev_ws/install/pub_and_sub_ros2/lib/pkgconfig/pub_and_sub_ros2.pc'
+[0.539s] Level 1:colcon.colcon_core.environment:checking '/home/gyufoxy/dev_ws/install/pub_and_sub_ros2/lib/python3.8/site-packages'
+[0.539s] INFO:colcon.colcon_core.shell:Creating package script '/home/gyufoxy/dev_ws/install/pub_and_sub_ros2/share/pub_and_sub_ros2/package.ps1'
+[0.540s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gyufoxy/dev_ws/install/pub_and_sub_ros2/share/pub_and_sub_ros2/package.dsv'
+[0.540s] INFO:colcon.colcon_core.shell:Creating package script '/home/gyufoxy/dev_ws/install/pub_and_sub_ros2/share/pub_and_sub_ros2/package.sh'
+[0.541s] INFO:colcon.colcon_core.shell:Creating package script '/home/gyufoxy/dev_ws/install/pub_and_sub_ros2/share/pub_and_sub_ros2/package.bash'
+[0.541s] INFO:colcon.colcon_core.shell:Creating package script '/home/gyufoxy/dev_ws/install/pub_and_sub_ros2/share/pub_and_sub_ros2/package.zsh'
+[0.541s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gyufoxy/dev_ws/install/pub_and_sub_ros2/share/colcon-core/packages/pub_and_sub_ros2)
+[0.554s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_pubsub)
+[0.555s] Level 1:colcon.colcon_core.environment:checking '/home/gyufoxy/dev_ws/install/cpp_pubsub' for CMake module files
+[0.556s] Level 1:colcon.colcon_core.environment:checking '/home/gyufoxy/dev_ws/install/cpp_pubsub' for CMake config files
+[0.556s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_pubsub', 'cmake_prefix_path')
+[0.557s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gyufoxy/dev_ws/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.ps1'
+[0.558s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gyufoxy/dev_ws/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.dsv'
+[0.558s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gyufoxy/dev_ws/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.sh'
+[0.559s] Level 1:colcon.colcon_core.environment:checking '/home/gyufoxy/dev_ws/install/cpp_pubsub/lib'
+[0.559s] Level 1:colcon.colcon_core.environment:checking '/home/gyufoxy/dev_ws/install/cpp_pubsub/bin'
+[0.559s] Level 1:colcon.colcon_core.environment:checking '/home/gyufoxy/dev_ws/install/cpp_pubsub/lib/pkgconfig/cpp_pubsub.pc'
+[0.559s] Level 1:colcon.colcon_core.environment:checking '/home/gyufoxy/dev_ws/install/cpp_pubsub/lib/python3.8/site-packages'
+[0.560s] INFO:colcon.colcon_core.shell:Creating package script '/home/gyufoxy/dev_ws/install/cpp_pubsub/share/cpp_pubsub/package.ps1'
+[0.561s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gyufoxy/dev_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv'
+[0.561s] INFO:colcon.colcon_core.shell:Creating package script '/home/gyufoxy/dev_ws/install/cpp_pubsub/share/cpp_pubsub/package.sh'
+[0.562s] INFO:colcon.colcon_core.shell:Creating package script '/home/gyufoxy/dev_ws/install/cpp_pubsub/share/cpp_pubsub/package.bash'
+[0.562s] INFO:colcon.colcon_core.shell:Creating package script '/home/gyufoxy/dev_ws/install/cpp_pubsub/share/cpp_pubsub/package.zsh'
+[0.563s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gyufoxy/dev_ws/install/cpp_pubsub/share/colcon-core/packages/cpp_pubsub)
+[0.569s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pub_and_sub_ros2)
+[0.570s] Level 1:colcon.colcon_core.environment:checking '/home/gyufoxy/dev_ws/install/pub_and_sub_ros2' for CMake module files
+[0.571s] Level 1:colcon.colcon_core.environment:checking '/home/gyufoxy/dev_ws/install/pub_and_sub_ros2' for CMake config files
+[0.571s] Level 1:colcon.colcon_core.shell:create_environment_hook('pub_and_sub_ros2', 'cmake_prefix_path')
+[0.572s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gyufoxy/dev_ws/install/pub_and_sub_ros2/share/pub_and_sub_ros2/hook/cmake_prefix_path.ps1'
+[0.572s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gyufoxy/dev_ws/install/pub_and_sub_ros2/share/pub_and_sub_ros2/hook/cmake_prefix_path.dsv'
+[0.573s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gyufoxy/dev_ws/install/pub_and_sub_ros2/share/pub_and_sub_ros2/hook/cmake_prefix_path.sh'
+[0.573s] Level 1:colcon.colcon_core.environment:checking '/home/gyufoxy/dev_ws/install/pub_and_sub_ros2/lib'
+[0.573s] Level 1:colcon.colcon_core.environment:checking '/home/gyufoxy/dev_ws/install/pub_and_sub_ros2/bin'
+[0.573s] Level 1:colcon.colcon_core.environment:checking '/home/gyufoxy/dev_ws/install/pub_and_sub_ros2/lib/pkgconfig/pub_and_sub_ros2.pc'
+[0.574s] Level 1:colcon.colcon_core.environment:checking '/home/gyufoxy/dev_ws/install/pub_and_sub_ros2/lib/python3.8/site-packages'
+[0.574s] INFO:colcon.colcon_core.shell:Creating package script '/home/gyufoxy/dev_ws/install/pub_and_sub_ros2/share/pub_and_sub_ros2/package.ps1'
+[0.575s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gyufoxy/dev_ws/install/pub_and_sub_ros2/share/pub_and_sub_ros2/package.dsv'
+[0.575s] INFO:colcon.colcon_core.shell:Creating package script '/home/gyufoxy/dev_ws/install/pub_and_sub_ros2/share/pub_and_sub_ros2/package.sh'
+[0.576s] INFO:colcon.colcon_core.shell:Creating package script '/home/gyufoxy/dev_ws/install/pub_and_sub_ros2/share/pub_and_sub_ros2/package.bash'
+[0.576s] INFO:colcon.colcon_core.shell:Creating package script '/home/gyufoxy/dev_ws/install/pub_and_sub_ros2/share/pub_and_sub_ros2/package.zsh'
+[0.577s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gyufoxy/dev_ws/install/pub_and_sub_ros2/share/colcon-core/packages/pub_and_sub_ros2)
+[0.623s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gyufoxy/dev_ws/build/srv_and_cli_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/gyufoxy/dev_ws/build/srv_and_cli_ros2 -- -j8 -l8
+[0.691s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gyufoxy/dev_ws/build/srv_and_cli_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/gyufoxy/dev_ws/build/srv_and_cli_ros2
+[0.749s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(srv_and_cli_ros2)
+[0.750s] Level 1:colcon.colcon_core.environment:checking '/home/gyufoxy/dev_ws/install/srv_and_cli_ros2' for CMake module files
+[0.751s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gyufoxy/dev_ws/build/srv_and_cli_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/gyufoxy/dev_ws/build/srv_and_cli_ros2
+[0.751s] Level 1:colcon.colcon_core.environment:checking '/home/gyufoxy/dev_ws/install/srv_and_cli_ros2' for CMake config files
+[0.751s] Level 1:colcon.colcon_core.shell:create_environment_hook('srv_and_cli_ros2', 'cmake_prefix_path')
+[0.752s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gyufoxy/dev_ws/install/srv_and_cli_ros2/share/srv_and_cli_ros2/hook/cmake_prefix_path.ps1'
+[0.753s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gyufoxy/dev_ws/install/srv_and_cli_ros2/share/srv_and_cli_ros2/hook/cmake_prefix_path.dsv'
+[0.753s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gyufoxy/dev_ws/install/srv_and_cli_ros2/share/srv_and_cli_ros2/hook/cmake_prefix_path.sh'
+[0.754s] Level 1:colcon.colcon_core.environment:checking '/home/gyufoxy/dev_ws/install/srv_and_cli_ros2/lib'
+[0.754s] Level 1:colcon.colcon_core.shell:create_environment_hook('srv_and_cli_ros2', 'ld_library_path_lib')
+[0.754s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gyufoxy/dev_ws/install/srv_and_cli_ros2/share/srv_and_cli_ros2/hook/ld_library_path_lib.ps1'
+[0.755s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gyufoxy/dev_ws/install/srv_and_cli_ros2/share/srv_and_cli_ros2/hook/ld_library_path_lib.dsv'
+[0.755s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gyufoxy/dev_ws/install/srv_and_cli_ros2/share/srv_and_cli_ros2/hook/ld_library_path_lib.sh'
+[0.756s] Level 1:colcon.colcon_core.environment:checking '/home/gyufoxy/dev_ws/install/srv_and_cli_ros2/bin'
+[0.756s] Level 1:colcon.colcon_core.environment:checking '/home/gyufoxy/dev_ws/install/srv_and_cli_ros2/lib/pkgconfig/srv_and_cli_ros2.pc'
+[0.756s] Level 1:colcon.colcon_core.environment:checking '/home/gyufoxy/dev_ws/install/srv_and_cli_ros2/lib/python3.8/site-packages'
+[0.756s] Level 1:colcon.colcon_core.shell:create_environment_hook('srv_and_cli_ros2', 'pythonpath')
+[0.757s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gyufoxy/dev_ws/install/srv_and_cli_ros2/share/srv_and_cli_ros2/hook/pythonpath.ps1'
+[0.757s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gyufoxy/dev_ws/install/srv_and_cli_ros2/share/srv_and_cli_ros2/hook/pythonpath.dsv'
+[0.757s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gyufoxy/dev_ws/install/srv_and_cli_ros2/share/srv_and_cli_ros2/hook/pythonpath.sh'
+[0.758s] INFO:colcon.colcon_core.shell:Creating package script '/home/gyufoxy/dev_ws/install/srv_and_cli_ros2/share/srv_and_cli_ros2/package.ps1'
+[0.759s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gyufoxy/dev_ws/install/srv_and_cli_ros2/share/srv_and_cli_ros2/package.dsv'
+[0.759s] INFO:colcon.colcon_core.shell:Creating package script '/home/gyufoxy/dev_ws/install/srv_and_cli_ros2/share/srv_and_cli_ros2/package.sh'
+[0.760s] INFO:colcon.colcon_core.shell:Creating package script '/home/gyufoxy/dev_ws/install/srv_and_cli_ros2/share/srv_and_cli_ros2/package.bash'
+[0.760s] INFO:colcon.colcon_core.shell:Creating package script '/home/gyufoxy/dev_ws/install/srv_and_cli_ros2/share/srv_and_cli_ros2/package.zsh'
+[0.760s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gyufoxy/dev_ws/install/srv_and_cli_ros2/share/colcon-core/packages/srv_and_cli_ros2)
+[0.821s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(srv_and_cli_ros2)
+[0.822s] Level 1:colcon.colcon_core.environment:checking '/home/gyufoxy/dev_ws/install/srv_and_cli_ros2' for CMake module files
+[0.823s] Level 1:colcon.colcon_core.environment:checking '/home/gyufoxy/dev_ws/install/srv_and_cli_ros2' for CMake config files
+[0.823s] Level 1:colcon.colcon_core.shell:create_environment_hook('srv_and_cli_ros2', 'cmake_prefix_path')
+[0.823s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gyufoxy/dev_ws/install/srv_and_cli_ros2/share/srv_and_cli_ros2/hook/cmake_prefix_path.ps1'
+[0.824s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gyufoxy/dev_ws/install/srv_and_cli_ros2/share/srv_and_cli_ros2/hook/cmake_prefix_path.dsv'
+[0.824s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gyufoxy/dev_ws/install/srv_and_cli_ros2/share/srv_and_cli_ros2/hook/cmake_prefix_path.sh'
+[0.825s] Level 1:colcon.colcon_core.environment:checking '/home/gyufoxy/dev_ws/install/srv_and_cli_ros2/lib'
+[0.825s] Level 1:colcon.colcon_core.shell:create_environment_hook('srv_and_cli_ros2', 'ld_library_path_lib')
+[0.825s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gyufoxy/dev_ws/install/srv_and_cli_ros2/share/srv_and_cli_ros2/hook/ld_library_path_lib.ps1'
+[0.826s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gyufoxy/dev_ws/install/srv_and_cli_ros2/share/srv_and_cli_ros2/hook/ld_library_path_lib.dsv'
+[0.826s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gyufoxy/dev_ws/install/srv_and_cli_ros2/share/srv_and_cli_ros2/hook/ld_library_path_lib.sh'
+[0.826s] Level 1:colcon.colcon_core.environment:checking '/home/gyufoxy/dev_ws/install/srv_and_cli_ros2/bin'
+[0.826s] Level 1:colcon.colcon_core.environment:checking '/home/gyufoxy/dev_ws/install/srv_and_cli_ros2/lib/pkgconfig/srv_and_cli_ros2.pc'
+[0.826s] Level 1:colcon.colcon_core.environment:checking '/home/gyufoxy/dev_ws/install/srv_and_cli_ros2/lib/python3.8/site-packages'
+[0.826s] Level 1:colcon.colcon_core.shell:create_environment_hook('srv_and_cli_ros2', 'pythonpath')
+[0.827s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gyufoxy/dev_ws/install/srv_and_cli_ros2/share/srv_and_cli_ros2/hook/pythonpath.ps1'
+[0.827s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gyufoxy/dev_ws/install/srv_and_cli_ros2/share/srv_and_cli_ros2/hook/pythonpath.dsv'
+[0.828s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gyufoxy/dev_ws/install/srv_and_cli_ros2/share/srv_and_cli_ros2/hook/pythonpath.sh'
+[0.829s] INFO:colcon.colcon_core.shell:Creating package script '/home/gyufoxy/dev_ws/install/srv_and_cli_ros2/share/srv_and_cli_ros2/package.ps1'
+[0.829s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gyufoxy/dev_ws/install/srv_and_cli_ros2/share/srv_and_cli_ros2/package.dsv'
+[0.830s] INFO:colcon.colcon_core.shell:Creating package script '/home/gyufoxy/dev_ws/install/srv_and_cli_ros2/share/srv_and_cli_ros2/package.sh'
+[0.831s] INFO:colcon.colcon_core.shell:Creating package script '/home/gyufoxy/dev_ws/install/srv_and_cli_ros2/share/srv_and_cli_ros2/package.bash'
+[0.831s] INFO:colcon.colcon_core.shell:Creating package script '/home/gyufoxy/dev_ws/install/srv_and_cli_ros2/share/srv_and_cli_ros2/package.zsh'
+[0.831s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gyufoxy/dev_ws/install/srv_and_cli_ros2/share/colcon-core/packages/srv_and_cli_ros2)
+[1.908s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gyufoxy/dev_ws/build/action_interface_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/gyufoxy/dev_ws/src/action_interface_ros2 -DCMAKE_INSTALL_PREFIX=/home/gyufoxy/dev_ws/install/action_interface_ros2
+[1.911s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gyufoxy/dev_ws/build/action_interface_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/gyufoxy/dev_ws/build/action_interface_ros2 -- -j8 -l8
+[5.482s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gyufoxy/dev_ws/build/action_interface_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/gyufoxy/dev_ws/build/action_interface_ros2 -- -j8 -l8
+[5.530s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gyufoxy/dev_ws/build/action_interface_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/gyufoxy/dev_ws/build/action_interface_ros2
+[5.590s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(action_interface_ros2)
+[5.591s] Level 1:colcon.colcon_core.environment:checking '/home/gyufoxy/dev_ws/install/action_interface_ros2' for CMake module files
+[5.592s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gyufoxy/dev_ws/build/action_interface_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/gyufoxy/dev_ws/build/action_interface_ros2
+[5.592s] Level 1:colcon.colcon_core.environment:checking '/home/gyufoxy/dev_ws/install/action_interface_ros2' for CMake config files
+[5.593s] Level 1:colcon.colcon_core.shell:create_environment_hook('action_interface_ros2', 'cmake_prefix_path')
+[5.593s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gyufoxy/dev_ws/install/action_interface_ros2/share/action_interface_ros2/hook/cmake_prefix_path.ps1'
+[5.594s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gyufoxy/dev_ws/install/action_interface_ros2/share/action_interface_ros2/hook/cmake_prefix_path.dsv'
+[5.594s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gyufoxy/dev_ws/install/action_interface_ros2/share/action_interface_ros2/hook/cmake_prefix_path.sh'
+[5.594s] Level 1:colcon.colcon_core.environment:checking '/home/gyufoxy/dev_ws/install/action_interface_ros2/lib'
+[5.594s] Level 1:colcon.colcon_core.shell:create_environment_hook('action_interface_ros2', 'ld_library_path_lib')
+[5.595s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gyufoxy/dev_ws/install/action_interface_ros2/share/action_interface_ros2/hook/ld_library_path_lib.ps1'
+[5.595s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gyufoxy/dev_ws/install/action_interface_ros2/share/action_interface_ros2/hook/ld_library_path_lib.dsv'
+[5.596s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gyufoxy/dev_ws/install/action_interface_ros2/share/action_interface_ros2/hook/ld_library_path_lib.sh'
+[5.596s] Level 1:colcon.colcon_core.environment:checking '/home/gyufoxy/dev_ws/install/action_interface_ros2/bin'
+[5.596s] Level 1:colcon.colcon_core.environment:checking '/home/gyufoxy/dev_ws/install/action_interface_ros2/lib/pkgconfig/action_interface_ros2.pc'
+[5.596s] Level 1:colcon.colcon_core.environment:checking '/home/gyufoxy/dev_ws/install/action_interface_ros2/lib/python3.8/site-packages'
+[5.596s] Level 1:colcon.colcon_core.shell:create_environment_hook('action_interface_ros2', 'pythonpath')
+[5.597s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gyufoxy/dev_ws/install/action_interface_ros2/share/action_interface_ros2/hook/pythonpath.ps1'
+[5.597s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gyufoxy/dev_ws/install/action_interface_ros2/share/action_interface_ros2/hook/pythonpath.dsv'
+[5.597s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gyufoxy/dev_ws/install/action_interface_ros2/share/action_interface_ros2/hook/pythonpath.sh'
+[5.598s] INFO:colcon.colcon_core.shell:Creating package script '/home/gyufoxy/dev_ws/install/action_interface_ros2/share/action_interface_ros2/package.ps1'
+[5.599s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gyufoxy/dev_ws/install/action_interface_ros2/share/action_interface_ros2/package.dsv'
+[5.599s] INFO:colcon.colcon_core.shell:Creating package script '/home/gyufoxy/dev_ws/install/action_interface_ros2/share/action_interface_ros2/package.sh'
+[5.599s] INFO:colcon.colcon_core.shell:Creating package script '/home/gyufoxy/dev_ws/install/action_interface_ros2/share/action_interface_ros2/package.bash'
+[5.600s] INFO:colcon.colcon_core.shell:Creating package script '/home/gyufoxy/dev_ws/install/action_interface_ros2/share/action_interface_ros2/package.zsh'
+[5.600s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gyufoxy/dev_ws/install/action_interface_ros2/share/colcon-core/packages/action_interface_ros2)
+[5.647s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(action_interface_ros2)
+[5.648s] Level 1:colcon.colcon_core.environment:checking '/home/gyufoxy/dev_ws/install/action_interface_ros2' for CMake module files
+[5.649s] Level 1:colcon.colcon_core.environment:checking '/home/gyufoxy/dev_ws/install/action_interface_ros2' for CMake config files
+[5.649s] Level 1:colcon.colcon_core.shell:create_environment_hook('action_interface_ros2', 'cmake_prefix_path')
+[5.650s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gyufoxy/dev_ws/install/action_interface_ros2/share/action_interface_ros2/hook/cmake_prefix_path.ps1'
+[5.650s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gyufoxy/dev_ws/install/action_interface_ros2/share/action_interface_ros2/hook/cmake_prefix_path.dsv'
+[5.651s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gyufoxy/dev_ws/install/action_interface_ros2/share/action_interface_ros2/hook/cmake_prefix_path.sh'
+[5.651s] Level 1:colcon.colcon_core.environment:checking '/home/gyufoxy/dev_ws/install/action_interface_ros2/lib'
+[5.651s] Level 1:colcon.colcon_core.shell:create_environment_hook('action_interface_ros2', 'ld_library_path_lib')
+[5.652s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gyufoxy/dev_ws/install/action_interface_ros2/share/action_interface_ros2/hook/ld_library_path_lib.ps1'
+[5.652s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gyufoxy/dev_ws/install/action_interface_ros2/share/action_interface_ros2/hook/ld_library_path_lib.dsv'
+[5.653s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gyufoxy/dev_ws/install/action_interface_ros2/share/action_interface_ros2/hook/ld_library_path_lib.sh'
+[5.653s] Level 1:colcon.colcon_core.environment:checking '/home/gyufoxy/dev_ws/install/action_interface_ros2/bin'
+[5.653s] Level 1:colcon.colcon_core.environment:checking '/home/gyufoxy/dev_ws/install/action_interface_ros2/lib/pkgconfig/action_interface_ros2.pc'
+[5.653s] Level 1:colcon.colcon_core.environment:checking '/home/gyufoxy/dev_ws/install/action_interface_ros2/lib/python3.8/site-packages'
+[5.653s] Level 1:colcon.colcon_core.shell:create_environment_hook('action_interface_ros2', 'pythonpath')
+[5.654s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gyufoxy/dev_ws/install/action_interface_ros2/share/action_interface_ros2/hook/pythonpath.ps1'
+[5.654s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gyufoxy/dev_ws/install/action_interface_ros2/share/action_interface_ros2/hook/pythonpath.dsv'
+[5.654s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gyufoxy/dev_ws/install/action_interface_ros2/share/action_interface_ros2/hook/pythonpath.sh'
+[5.655s] INFO:colcon.colcon_core.shell:Creating package script '/home/gyufoxy/dev_ws/install/action_interface_ros2/share/action_interface_ros2/package.ps1'
+[5.656s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gyufoxy/dev_ws/install/action_interface_ros2/share/action_interface_ros2/package.dsv'
+[5.656s] INFO:colcon.colcon_core.shell:Creating package script '/home/gyufoxy/dev_ws/install/action_interface_ros2/share/action_interface_ros2/package.sh'
+[5.657s] INFO:colcon.colcon_core.shell:Creating package script '/home/gyufoxy/dev_ws/install/action_interface_ros2/share/action_interface_ros2/package.bash'
+[5.657s] INFO:colcon.colcon_core.shell:Creating package script '/home/gyufoxy/dev_ws/install/action_interface_ros2/share/action_interface_ros2/package.zsh'
+[5.658s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gyufoxy/dev_ws/install/action_interface_ros2/share/colcon-core/packages/action_interface_ros2)
+[5.658s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.659s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.659s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.659s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.667s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.667s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.667s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.682s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.683s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gyufoxy/dev_ws/install/local_setup.ps1'
+[5.685s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/gyufoxy/dev_ws/install/_local_setup_util_ps1.py'
+[5.687s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gyufoxy/dev_ws/install/setup.ps1'
+[5.689s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gyufoxy/dev_ws/install/local_setup.sh'
+[5.690s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/gyufoxy/dev_ws/install/_local_setup_util_sh.py'
+[5.691s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gyufoxy/dev_ws/install/setup.sh'
+[5.693s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gyufoxy/dev_ws/install/local_setup.bash'
+[5.694s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gyufoxy/dev_ws/install/setup.bash'
+[5.696s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gyufoxy/dev_ws/install/local_setup.zsh'
+[5.697s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gyufoxy/dev_ws/install/setup.zsh'

@@ -1,0 +1,6 @@
+{
+  "package_name": "action_interface_ros2",
+  "non_idl_tuples": [
+    "/home/gyufoxy/dev_ws/src/action_interface_ros2:action/Fibonacci.action"
+  ]
+}
