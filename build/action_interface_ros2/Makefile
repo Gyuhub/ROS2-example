@@ -168,6 +168,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named fibonacci_action_server
+
+# Build rule for target.
+fibonacci_action_server: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 fibonacci_action_server
+.PHONY : fibonacci_action_server
+
+# fast build rule for target.
+fibonacci_action_server/fast:
+	$(MAKE) -f CMakeFiles/fibonacci_action_server.dir/build.make CMakeFiles/fibonacci_action_server.dir/build
+.PHONY : fibonacci_action_server/fast
+
+#=============================================================================
 # Target rules for targets named action_interface_ros2__rosidl_typesupport_c__pyext
 
 # Build rule for target.
@@ -311,6 +324,19 @@ action_interface_ros2__cpp/fast:
 .PHONY : action_interface_ros2__cpp/fast
 
 #=============================================================================
+# Target rules for targets named action_server
+
+# Build rule for target.
+action_server: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 action_server
+.PHONY : action_server
+
+# fast build rule for target.
+action_server/fast:
+	$(MAKE) -f CMakeFiles/action_server.dir/build.make CMakeFiles/action_server.dir/build
+.PHONY : action_server/fast
+
+#=============================================================================
 # Target rules for targets named action_interface_ros2__rosidl_typesupport_c
 
 # Build rule for target.
@@ -374,6 +400,33 @@ action_interface_ros2__py: cmake_check_build_system
 action_interface_ros2__py/fast:
 	$(MAKE) -f action_interface_ros2__py/CMakeFiles/action_interface_ros2__py.dir/build.make action_interface_ros2__py/CMakeFiles/action_interface_ros2__py.dir/build
 .PHONY : action_interface_ros2__py/fast
+
+rclcpp_components/node_main_fibonacci_action_server.o: rclcpp_components/node_main_fibonacci_action_server.cpp.o
+
+.PHONY : rclcpp_components/node_main_fibonacci_action_server.o
+
+# target to build an object file
+rclcpp_components/node_main_fibonacci_action_server.cpp.o:
+	$(MAKE) -f CMakeFiles/fibonacci_action_server.dir/build.make CMakeFiles/fibonacci_action_server.dir/rclcpp_components/node_main_fibonacci_action_server.cpp.o
+.PHONY : rclcpp_components/node_main_fibonacci_action_server.cpp.o
+
+rclcpp_components/node_main_fibonacci_action_server.i: rclcpp_components/node_main_fibonacci_action_server.cpp.i
+
+.PHONY : rclcpp_components/node_main_fibonacci_action_server.i
+
+# target to preprocess a source file
+rclcpp_components/node_main_fibonacci_action_server.cpp.i:
+	$(MAKE) -f CMakeFiles/fibonacci_action_server.dir/build.make CMakeFiles/fibonacci_action_server.dir/rclcpp_components/node_main_fibonacci_action_server.cpp.i
+.PHONY : rclcpp_components/node_main_fibonacci_action_server.cpp.i
+
+rclcpp_components/node_main_fibonacci_action_server.s: rclcpp_components/node_main_fibonacci_action_server.cpp.s
+
+.PHONY : rclcpp_components/node_main_fibonacci_action_server.s
+
+# target to generate assembly for a file
+rclcpp_components/node_main_fibonacci_action_server.cpp.s:
+	$(MAKE) -f CMakeFiles/fibonacci_action_server.dir/build.make CMakeFiles/fibonacci_action_server.dir/rclcpp_components/node_main_fibonacci_action_server.cpp.s
+.PHONY : rclcpp_components/node_main_fibonacci_action_server.cpp.s
 
 rosidl_generator_c/action_interface_ros2/action/detail/fibonacci__functions.o: rosidl_generator_c/action_interface_ros2/action/detail/fibonacci__functions.c.o
 
@@ -672,6 +725,33 @@ rosidl_typesupport_introspection_cpp/action_interface_ros2/action/detail/fibonac
 	$(MAKE) -f CMakeFiles/action_interface_ros2__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/action_interface_ros2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/action_interface_ros2/action/detail/fibonacci__type_support.cpp.s
 .PHONY : rosidl_typesupport_introspection_cpp/action_interface_ros2/action/detail/fibonacci__type_support.cpp.s
 
+src/fibo_action_server.o: src/fibo_action_server.cpp.o
+
+.PHONY : src/fibo_action_server.o
+
+# target to build an object file
+src/fibo_action_server.cpp.o:
+	$(MAKE) -f CMakeFiles/action_server.dir/build.make CMakeFiles/action_server.dir/src/fibo_action_server.cpp.o
+.PHONY : src/fibo_action_server.cpp.o
+
+src/fibo_action_server.i: src/fibo_action_server.cpp.i
+
+.PHONY : src/fibo_action_server.i
+
+# target to preprocess a source file
+src/fibo_action_server.cpp.i:
+	$(MAKE) -f CMakeFiles/action_server.dir/build.make CMakeFiles/action_server.dir/src/fibo_action_server.cpp.i
+.PHONY : src/fibo_action_server.cpp.i
+
+src/fibo_action_server.s: src/fibo_action_server.cpp.s
+
+.PHONY : src/fibo_action_server.s
+
+# target to generate assembly for a file
+src/fibo_action_server.cpp.s:
+	$(MAKE) -f CMakeFiles/action_server.dir/build.make CMakeFiles/action_server.dir/src/fibo_action_server.cpp.s
+.PHONY : src/fibo_action_server.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -681,6 +761,7 @@ help:
 	@echo "... install/strip"
 	@echo "... install"
 	@echo "... list_install_components"
+	@echo "... fibonacci_action_server"
 	@echo "... action_interface_ros2__rosidl_typesupport_c__pyext"
 	@echo "... test"
 	@echo "... uninstall"
@@ -694,6 +775,7 @@ help:
 	@echo "... action_interface_ros2__rosidl_typesupport_fastrtps_c__pyext"
 	@echo "... action_interface_ros2__python"
 	@echo "... action_interface_ros2__cpp"
+	@echo "... action_server"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... action_interface_ros2__rosidl_typesupport_c"
@@ -701,6 +783,9 @@ help:
 	@echo "... action_interface_ros2_uninstall"
 	@echo "... action_interface_ros2__rosidl_typesupport_cpp"
 	@echo "... action_interface_ros2__py"
+	@echo "... rclcpp_components/node_main_fibonacci_action_server.o"
+	@echo "... rclcpp_components/node_main_fibonacci_action_server.i"
+	@echo "... rclcpp_components/node_main_fibonacci_action_server.s"
 	@echo "... rosidl_generator_c/action_interface_ros2/action/detail/fibonacci__functions.o"
 	@echo "... rosidl_generator_c/action_interface_ros2/action/detail/fibonacci__functions.i"
 	@echo "... rosidl_generator_c/action_interface_ros2/action/detail/fibonacci__functions.s"
@@ -734,6 +819,9 @@ help:
 	@echo "... rosidl_typesupport_introspection_cpp/action_interface_ros2/action/detail/fibonacci__type_support.o"
 	@echo "... rosidl_typesupport_introspection_cpp/action_interface_ros2/action/detail/fibonacci__type_support.i"
 	@echo "... rosidl_typesupport_introspection_cpp/action_interface_ros2/action/detail/fibonacci__type_support.s"
+	@echo "... src/fibo_action_server.o"
+	@echo "... src/fibo_action_server.i"
+	@echo "... src/fibo_action_server.s"
 .PHONY : help
 
 

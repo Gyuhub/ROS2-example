@@ -1,1 +1,1 @@
-/home/gyufoxy/dev_ws/install/srv_and_cli_ros2:/home/gyufoxy/dev_ws/install/turtlesim:/home/gyufoxy/dev_ws/install/pub_and_sub_ros2:/home/gyufoxy/dev_ws/install/my_pkg:/home/gyufoxy/dev_ws/install/cpp_pubsub:/opt/ros/foxy
+/home/gyufoxy/dev_ws/install/turtlesim:/home/gyufoxy/dev_ws/install/srv_and_cli_ros2:/home/gyufoxy/dev_ws/install/pub_and_sub_ros2:/home/gyufoxy/dev_ws/install/my_pkg:/home/gyufoxy/dev_ws/install/cpp_pubsub:/home/gyufoxy/dev_ws/install/action_interfaces_ros2:/home/gyufoxy/dev_ws/install/action_interface_ros2:/opt/ros/foxy

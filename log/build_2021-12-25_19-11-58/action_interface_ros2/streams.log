@@ -1,0 +1,43 @@
+[0.040s] Invoking command in '/home/gyufoxy/dev_ws/build/action_interface_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/gyufoxy/dev_ws/build/action_interface_ros2 -- -j8 -l8
+[0.101s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.154s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.154s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.391s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.396s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.402s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.565s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.594s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.676s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.679s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.681s] -- Looking for pthread.h
+[0.879s] -- Looking for pthread.h - found
+[0.880s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.950s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.950s] -- Looking for pthread_create in pthreads
+[1.007s] -- Looking for pthread_create in pthreads - not found
+[1.007s] -- Looking for pthread_create in pthread
+[1.077s] -- Looking for pthread_create in pthread - found
+[1.078s] -- Found Threads: TRUE  
+[1.280s] -- Found rclcpp_action: 2.4.0 (/opt/ros/foxy/share/rclcpp_action/cmake)
+[1.384s] -- Found rclcpp_components: 2.4.0 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[1.477s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[1.616s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[1.752s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.778s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.806s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[1.807s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[1.830s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.830s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[1.830s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[1.858s] CMake Error at /opt/ros/foxy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[1.858s]   ament_target_dependencies() the passed package name 'action_interface_ros2'
+[1.858s]   was not found before
+[1.858s] Call Stack (most recent call first):
+[1.858s]   CMakeLists.txt:39 (ament_target_dependencies)
+[1.858s] 
+[1.858s] 
+[1.860s] -- Configuring incomplete, errors occurred!
+[1.860s] See also "/home/gyufoxy/dev_ws/build/action_interface_ros2/CMakeFiles/CMakeOutput.log".
+[1.860s] See also "/home/gyufoxy/dev_ws/build/action_interface_ros2/CMakeFiles/CMakeError.log".
+[1.867s] make: *** [Makefile:748: cmake_check_build_system] Error 1
+[1.869s] Invoked command in '/home/gyufoxy/dev_ws/build/action_interface_ros2' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/gyufoxy/dev_ws/build/action_interface_ros2 -- -j8 -l8

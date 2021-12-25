@@ -63,6 +63,7 @@
 /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/share/srv_and_cli_ros2/srv/Tutorial.srv
 /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/share/srv_and_cli_ros2/srv/Tutorial_Request.msg
 /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/share/srv_and_cli_ros2/srv/Tutorial_Response.msg
+/home/gyufoxy/dev_ws/install/srv_and_cli_ros2/share/srv_and_cli_ros2//launch/srv_and_cli_ros2.launch.py
 /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/share/ament_index/resource_index/package_run_dependencies/srv_and_cli_ros2
 /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/share/ament_index/resource_index/parent_prefix_path/srv_and_cli_ros2
 /home/gyufoxy/dev_ws/install/srv_and_cli_ros2/share/srv_and_cli_ros2/environment/ament_prefix_path.sh

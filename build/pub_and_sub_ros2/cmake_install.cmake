@@ -78,6 +78,10 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pub_and_sub_ros2/" TYPE DIRECTORY FILES "/home/gyufoxy/dev_ws/src/pub_and_sub_ros2/launch")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/gyufoxy/dev_ws/build/pub_and_sub_ros2/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/pub_and_sub_ros2")
 endif()
 
